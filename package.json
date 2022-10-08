@@ -1,0 +1,26 @@
+{
+  "name": "primitives-css",
+  "version": "0.0.1",
+  "description": "css styles",
+  "files": ["style.css", "fonts/*"],
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/primitives-css.git"
+  },
+  "keywords": [],
+  "author": "sam bacha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambacha/primitives-css/issues"
+  },
+  "homepage": "https://github.com/sambacha/primitives-css#readme",
+  "devDependencies": {
+    "cssnano": "^5.1.13",
+    "postcss": "^8.4.17",
+    "postcss-preset-env": "^7.8.2",
+    "prettier": "^2.7.1"
+  }
+}
