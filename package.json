@@ -2,9 +2,13 @@
   "name": "primitives-css",
   "version": "0.0.1",
   "description": "css styles",
-  "files": ["style.css", "fonts/*"],
+  "files": [
+    "style.css",
+    "fonts/*"
+  ],
   "main": "index.js",
   "scripts": {
+    "build": "lightningcss --minify --nesting --bundle --targets '>= 0.25%' --sourcemap style.css -o output.css"
   },
   "repository": {
     "type": "git",
@@ -21,6 +25,10 @@
     "cssnano": "^5.1.13",
     "postcss": "^8.4.17",
     "postcss-preset-env": "^7.8.2",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "lightningcss-cli": "^1.16.0"
   }
 }
